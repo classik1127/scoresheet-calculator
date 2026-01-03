@@ -1,0 +1,397 @@
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+ body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: rgb(248, 247, 247);
+    box-sizing: border-box;
+   
+ }
+
+html{
+    scroll-behavior: smooth;
+ }
+
+ hr{
+    border: none;
+    border-bottom: 1px solid lightslategray;
+ }
+ /* for the navbar  */
+ .navbar{
+    display: flex;
+    padding: 18px 5px;
+    justify-content: space-around;   
+    height: 24px;
+    background-color: rgba(245, 245, 245, 0.90);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* .logo-icon{
+
+
+}  */
+
+
+.search-box {
+  background-color: white;
+  width: 500px;
+  border-radius: 6px;
+  padding: 17px 12px;
+  margin-top: -7px;
+  display: flex;
+  align-items: center;
+  color: #666;
+  font-size: 13px;
+}
+
+#search-box-input{
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+} 
+
+
+   /* popular brand section */
+
+
+section{
+   padding: 10px;
+}
+
+section h1{
+   font-size: 40px;
+   margin: 30px;
+}
+
+section p{
+   margin: 30px;
+   font-size: 20px;
+}
+
+.popular-brand-container{
+   height: 75px;
+   padding: 10px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.popular-brand-card{
+   margin: 12px;
+   width: 180px;
+   height: 50px;
+   background-color: transparent;
+   border: 1px solid #E5E7EB;
+   border-radius: 12PX;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6); 
+}
+
+.popular-brand{
+   width: 200px;
+   background-color: transparent;
+   height: 50px;
+   margin: 12px;
+   text-align: center;
+   align-items: end;
+   font-weight: 400;
+   font-size: 24px;
+   padding: 10px;
+   margin-bottom: -5px;
+}
+
+.popular-brand-card img{
+   width: 180px;
+   height: 50px;
+}
+
+/* popular brand model letters */
+.letters-container{
+   display: flex;
+   gap: 15px;
+   padding: 10px;
+   margin-left: 15px;
+}
+
+.letters{
+   display: flex;
+}
+.letters a{
+   text-decoration: none;
+   color: blue;
+}
+
+
+
+.phone-brand-container{
+   height: 1000px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   gap: 20px;
+   padding: 25px;
+}
+
+.phone-brand-card1{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/iphone\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card2{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/asus\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card3{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/blackberry\ card.jpg );
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.phone-brand-card4{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/itel\ card.jpg );
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card5{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/infinix\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card6{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/xiaomi\ card\ \(1\).jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card7{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/samsung\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card8{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/vertu\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card9{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/oneplus\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card10{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/honor\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card11{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/microsoft\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card12{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/htc\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card13{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/tecno\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card14{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/sony\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card15{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/nothing\ phone\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.phone-brand-card16{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/gionee\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card17{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/google\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card18{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/honor\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card19{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/realme\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card20{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/vivo\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.phone-brand-card21{
+   width: 200px;
+   height: 200px;
+   background-image: url(cli/zte\ card.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.phone-brand-container div{
+   transition: all 0.25s ease;
+   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6);
+}
+
+.phone-brand-container div:hover{
+   transform: translateY(-4px);
+   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+   cursor: pointer;
+}
+
+/* footer section */
+
+footer{
+   height: 180px;
+}
+
+footer hr{
+   margin: 20px;
+}
+
+.footer-container{
+   display: flex;
+   justify-content: space-between;
+   padding: 25px;
+}
+
+.footercard1-contact{
+   font-weight: 500;
+   margin-top: 50px;
+   margin-bottom: 15px;
+}
+
+.footercard1-email a{
+   color: blue;
+   text-decoration: none;
+}
+
+.footer-policy{
+   margin-top: 89px;
+}
+
+.footer-policy a{
+   color: blue;
+   text-decoration: none;
+}
+
+.footercard2{
+   text-align: left;
+   margin-right: 70px;
+}
+
+.footer-stay-updated{
+   font-weight: 500;
+   margin-top: 15px;
+   margin-bottom: 8px;
+}
+
+.footer-bio{
+   margin-bottom: 15px;
+}
+
+footer input{
+   width: 180px;
+   height: 25px;
+   outline: none;
+}
+footer button{
+   height: 30px;
+   width: 80px;
+   background-color: blue;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
